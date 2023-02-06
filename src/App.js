@@ -398,7 +398,7 @@ function App() {
 
   function mudarCor(cor, id) {
     setTimes(times.map(time => {
-      if(time.id === id) {
+      if (time.id === id) {
         time.cor = cor;
       }
       return time;
@@ -411,7 +411,7 @@ function App() {
 
   function resolverFavorito(id) {
     setColaboradores(colaboradores.map(colaborador => {
-      if(colaborador.id === id) colaborador.favorito = !colaborador.favorito;
+      if (colaborador.id === id) colaborador.favorito = !colaborador.favorito;
       return colaborador;
     }))
   }
@@ -421,9 +421,22 @@ function App() {
     <div>
       <Banner />
       <section className="times">
-        {times.map((time, indice) => <Time mudarCor={mudarCor} key={indice} time={time} colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} aoDeletar={deletarColaborador} aoFavoritar={resolverFavorito} />)}
+        {times.map((time, indice) =>
+          <Time
+            mudarCor={mudarCor}
+            key={indice}
+            time={time}
+            colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+            aoDeletar={deletarColaborador}
+            aoFavoritar={resolverFavorito}
+          />
+        )}
       </section>
-      <Formulario aoCriarTime={cadastrarTime} times={times.map(time => time.nome)} aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} />
+      <Formulario
+        aoCriarTime={cadastrarTime}
+        times={times.map(time => time.nome)}
+        aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])}
+      />
       <Rodape />
     </div>
   );
