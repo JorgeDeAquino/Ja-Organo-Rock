@@ -4,13 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem 2.5rem;
-    background: #4c6e81;
+    background: #000;
     border-radius: 2%;
     padding: 1rem;
 }
 
 .formulario-container .formulario {
-    background: #F7F7F7;
+    background: #ccc;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     flex: 1;
