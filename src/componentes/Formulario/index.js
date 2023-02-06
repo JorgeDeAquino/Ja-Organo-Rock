@@ -37,7 +37,8 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
                     aoAlterado={valor => setNome(valor)}/>
                 <Campo 
                     label='Imagem' 
-                    placeholder='Informe o URL da imagem '
+                    placeholder='Informe o URL da imagem'
+                    valor={imagem}
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa 
                     obrigatorio={true}
