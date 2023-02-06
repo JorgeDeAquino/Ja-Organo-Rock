@@ -20,6 +20,9 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
             imagem,
             time
         })
+        setNome('')
+        setImagem('')
+        setTime('')
     }
 
     return (
@@ -47,6 +50,8 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
             <form className="formulario" onSubmit={(evento) => {
                 evento.preventDefault()
                 aoCriarTime({ nome: nomeTime, cor: corTime })
+                setNomeTime('')
+                setCorTime('')
             }}>
                 <h2>Preencha para adicionar um novo estilo.</h2>
                 <Campo
