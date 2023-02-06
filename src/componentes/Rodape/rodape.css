@@ -1,0 +1,40 @@
+.footer {
+    background: #000000;
+    color: #FFF;
+    padding: .3rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.icon-sm {
+    color: #FFF;
+    font-size: 45px;
+    margin: 0 32px;
+}
+
+.icon-sm:hover {
+    color: #000000;
+    background-color: #FFF;
+    font-size: 50px;
+}
+
+.footer section h4 a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: .5rem;
+    color: blue;
+}
+
+.footer section img {
+    width: 180px;
+}
+
+.footer section h4 a:hover {
+    color: #FFF;
+}

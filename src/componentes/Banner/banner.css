@@ -1,0 +1,21 @@
+.cabecalho-banner {
+    width: calc(100% -1%) ;
+    height: 450px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.cabecalho-banner img {
+    width: 100%;
+    max-height: 450px;
+}
+
+.titulo-banner {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    bottom: 10%;
+    left: 3%;
+}
