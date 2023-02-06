@@ -31,17 +31,17 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
                 <h2>Preencha para criar o card da Banda.</h2>
                 <Campo
                     obrigatorio={true}
-                    label='Nome'
-                    placeholder='Digite seu nome '
+                    label='Nome da Banda'
+                    placeholder='Digite o nome'
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}/>
                 <Campo 
                     label='Imagem' 
-                    placeholder='Informe o endereço da imagem '
+                    placeholder='Informe o URL da imagem '
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa 
                     obrigatorio={true}
-                    label='Times'
+                    label='Estilo que se enquadra'
                     items={times} 
                     valor={time}
                     aoAlterado={valor => setTime(valor)}/>
@@ -56,8 +56,8 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
                 <h2>Preencha para adicionar um novo estilo.</h2>
                 <Campo
                     obrigatorio={true}
-                    label='Nome'
-                    placeholder='Digite o nome do time'
+                    label='Nome do Estilo'
+                    placeholder='Digite o nome do estilo'
                     valor={nomeTime}
                     aoAlterado={valor => setNomeTime(valor)}/>
                 <Campo
