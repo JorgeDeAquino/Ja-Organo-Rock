@@ -6,9 +6,14 @@ const Time = ({ time, colaboradores, aoDeletar, mudarCor, aoFavoritar }) => {
     return (
 
         colaboradores.length > 0 && <section className='time' style={{ backgroundImage: 'url(/imagens/fundo.png)', backgroundColor: hexToRgba(time.cor, '0.6') }}>
-            <input type='color' className='input-cor' value={time.cor} onChange={evento => {
-                mudarCor(evento.target.value, time.id);
-            }} />
+            <input
+                type='color'
+                className='input-cor'
+                value={time.cor}
+                onChange={evento => {
+                    mudarCor(evento.target.value, time.id);
+                }} 
+            />
             <h3 style={{ borderColor: time.cor }}>{time.nome}</h3>
             <p className='descricao'>{time.descricao}</p>
             <div className='colaboradores'>
