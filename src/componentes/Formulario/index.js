@@ -7,7 +7,6 @@ import './formulario.css'
 const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
 
     const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')
     const [nomeTime, setNomeTime] = useState('')
@@ -15,10 +14,9 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
-        console.log('form enviado', nome, cargo, imagem, time )
+        console.log('form enviado', nome, imagem, time )
         aoCadastrar({
             nome,
-            cargo,
             imagem,
             time
         })
@@ -34,12 +32,6 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
                     placeholder='Digite seu nome '
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}/>
-                <Campo
-                    obrigatorio={true}
-                    label='Cargo' 
-                    placeholder='Digite seu cargo '
-                    valor={cargo}
-                    aoAlterado={valor => setCargo(valor)}/>
                 <Campo 
                     label='Imagem' 
                     placeholder='Informe o endereço da imagem '

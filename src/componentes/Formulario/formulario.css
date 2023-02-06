@@ -3,8 +3,10 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 80px 50px;
-    background: #Fdfdfd;
+    margin: 2rem 2.5rem;
+    background: #4c6e81;
+    border-radius: 2%;
+    padding: 1rem;
 }
 
 .formulario-container .formulario {
