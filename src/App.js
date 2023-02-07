@@ -18,13 +18,13 @@ function App() {
       id: uuidv4(),
       nome: 'Rock Psicodélico',
       descricao: 'Esse estilo, surgido nos anos 60, buscava reproduzir, através da música, os efeitos causados pelos alucinógenos. Como assim? Bom, o rock psicodélico usava muito de elementos como pedais de efeito, teclados, distorção e instrumentos exóticos utilizados na Índia (como o sitar e o tabla) para tentar causar esse tipo de sensação em suas canções. Até os Beatles incorporaram o psicodelismo em uma época, como fica perceptível no álbum Sgt. Pepper’s Lonely Hearts Club Band.',
-      cor: '#A6D157'
+      cor: '#ffa42b'
     },
     {
       id: uuidv4(),
       nome: 'Rock Progressivo',
       descricao: '',
-      cor: '#E06B69'
+      cor: '#0d72ea'
     },
     {
       id: uuidv4(),
@@ -36,25 +36,25 @@ function App() {
       id: uuidv4(),
       nome: 'Hard Rock',
       descricao: '',
-      cor: '#FF8A19'
+      cor: '#e91429'
     },
     {
       id: uuidv4(),
       nome: 'Heavy Metal',
       descricao: '',
-      cor: '#FF8A28'
+      cor: '#f15e6c'
     },
     {
       id: uuidv4(),
       nome: 'Grunge',
       descricao: '',
-      cor: '#FF8A39'
+      cor: '#3d91f4'
     },
     {
       id: uuidv4(),
       nome: 'Pop punk',
       descricao: '',
-      cor: '#FFffff'
+      cor: '#727272'
     },
   ]);
 
