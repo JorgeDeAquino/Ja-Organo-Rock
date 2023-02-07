@@ -16,12 +16,6 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Garage Rock',
-      descricao: 'O garage rock (ou rock de garagem) é uma vertente bem underground do rock, tanto que o punk se inspirou nesse estilo. O nome vem justamente referenciando as bandas amadoras que surgem das garagens das casas, com um som baseado em acordes básicos, distorções, pouca preocupação com as letras e, geralmente, baixo orçamento para gravações.',
-      cor: '#82CFFA'
-    },
-    {
-      id: uuidv4(),
       nome: 'Rock Psicodélico',
       descricao: 'Esse estilo, surgido nos anos 60, buscava reproduzir, através da música, os efeitos causados pelos alucinógenos. Como assim? Bom, o rock psicodélico usava muito de elementos como pedais de efeito, teclados, distorção e instrumentos exóticos utilizados na Índia (como o sitar e o tabla) para tentar causar esse tipo de sensação em suas canções. Até os Beatles incorporaram o psicodelismo em uma época, como fica perceptível no álbum Sgt. Pepper’s Lonely Hearts Club Band.',
       cor: '#A6D157'
@@ -40,12 +34,6 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Folk Rock',
-      descricao: '',
-      cor: '#FFBA05'
-    },
-    {
-      id: uuidv4(),
       nome: 'Hard Rock',
       descricao: '',
       cor: '#FF8A19'
@@ -55,24 +43,6 @@ function App() {
       nome: 'Heavy Metal',
       descricao: '',
       cor: '#FF8A28'
-    },
-    {
-      id: uuidv4(),
-      nome: 'Punk Rock',
-      descricao: '',
-      cor: '#FF8A84'
-    },
-    {
-      id: uuidv4(),
-      nome: 'New Wave',
-      descricao: '',
-      cor: '#FF8A79'
-    },
-    {
-      id: uuidv4(),
-      nome: 'Rock Alternativo',
-      descricao: '',
-      cor: '#FF8A69'
     },
     {
       id: uuidv4(),
@@ -100,7 +70,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Johnny Cash',
-      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvcmzYT1OuArUXzA081jdPtOLsb2N_VmmLA&usqp=CAU',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e026f4f62da3d811b6501a69ffa',
       time: times[0].nome
     },
     {
@@ -113,280 +83,177 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[1].nome
-    },
-    {
-      id: uuidv4(),
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[1].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[1].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
       nome: 'Jimi Hendrix',
-      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQj8ajGI13XxXVy9Vtw4SuEjh-MN8HvH_Mg&usqp=CAU',
-      time: times[2].nome
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02522088789d49e216d9818292',
+      time: times[1].nome
     },
     {
       id: uuidv4(),
       favorito: false,
       nome: 'The Doors',
       imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDM3kdEX1DZHaZfdNFhcFCrLM9KknL4rbtg&usqp=CAU',
-      time: times[2].nome
+      time: times[1].nome
     },
     {
       id: uuidv4(),
       favorito: false,
       nome: 'Grateful Dead',
       imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbmXknMN6Me8gNbZ1R3W4vTERidnmyboYazwRUzd47fOLhKeh3kndVudwke_S0jx3-548&usqp=CAU',
-      time: times[2].nome
+      time: times[1].nome
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'Pink Floyd',
-      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4La5sac5PBODOOfgoRcuhMHZZaoOEtj-DQ&usqp=CAU',
-      time: times[3].nome
+      imagem: 'https://i.scdn.co/image/ab67616d00001e025d48e2f56d691f9a4e4b0bdf',
+      time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
       nome: 'Yes',
-      imagem: 'http://www.rocknaveia.com.br/wp-content/uploads/logo-yes-rock-na-veia-770x322.jpg',
-      time: times[3].nome
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02418e5dc6c0324f12a96e7aa7',
+      time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
       nome: 'Rush',
-      imagem: 'http://www.rocknaveia.com.br/wp-content/uploads/logo-rush-rock-na-veia-770x322.jpg',
-      time: times[3].nome
+      imagem: 'https://i.scdn.co/image/ab67616d00001e0206c0d7ebcabad0c39b566983',
+      time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
       nome: 'David Bowie',
       imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqidt8VFnbVBKxEFqBGYPfYTLLZ5TJ9uC-sA&usqp=CAU',
+      time: times[3].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Heart',
+      imagem: 'https://i.pinimg.com/474x/d4/e8/30/d4e830c4222c538bee58f83563cccf78--heart-html.jpg',
+      time: times[3].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Secos e Molhados',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e0270f4d5f1690bbedab86fe5db',
+      time: times[3].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'AC/DC',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e020a80b890ab011362fd7aa73b',
       time: times[4].nome
     },
     {
       id: uuidv4(),
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Led Zeppelin',
+      favorito: false,
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDSdqfIw26-tdvRMPtLusAX1GaK6VlBWXsQ&usqp=CAU',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Black Sabbath',
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQs8tSy4bVUaeVbG4CZM3Fxu05VhQolg0KyhXqKl9xeNfw3XWSprhjtsnNZ1vq1vtwos&usqp=CAU',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Deep Purple',
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jQrZcXTBcyVYXffZHJLG5b3m5NBSS6oR6Q&usqp=CAU',
+      time: times[4].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Kiss',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e024384b6976cadaec272114022',
+      time: times[4].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Iron Maiden',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e022277d1a849a63c7075ec38ff',
       time: times[5].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Metallica',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02668e3aca3167e6e569a9aa20',
       time: times[5].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Motörhead',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e022051e219a4af7648223953c1',
       time: times[5].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Judas Priest',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02be0e5ebab8c61469b1ff9f62',
+      time: times[5].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Nirvana',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02fbc71c99f9c1296c56dd51b6',
       time: times[6].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Pearl Jam',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02d400d27cba05bb0545533864',
       time: times[6].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Soundgarden',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e020aeb443169c25c7b892e0521',
       time: times[6].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Alice In Chains',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e021f829ea9c2c7ffcec1a3c857',
+      time: times[6].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'The Offspring',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e02cbd2ee7dff77bfb2b5f0af52',
       time: times[7].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Green Day',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e021d13a9948aab982fabdf5209',
       time: times[7].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Blink-182',
+      imagem: 'https://i.scdn.co/image/ab67616d00001e026da502e35a7a3e48de2b0f74',
       time: times[7].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[8].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[8].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[8].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[9].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[9].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[9].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[10].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[10].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[10].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[11].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[11].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[11].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-      time: times[12].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[12].nome
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[12].nome
     },
   ]
 
