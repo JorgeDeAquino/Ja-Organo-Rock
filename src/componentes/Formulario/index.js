@@ -11,6 +11,7 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
     const [time, setTime] = useState('')
     const [nomeTime, setNomeTime] = useState('')
     const [corTime, setCorTime] = useState('')
+    const [descricaoTime, setdescricaoTime] = useState('')
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
@@ -50,9 +51,10 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
             </form>
             <form className="formulario" onSubmit={(evento) => {
                 evento.preventDefault()
-                aoCriarTime({ nome: nomeTime, cor: corTime })
+                aoCriarTime({ nome: nomeTime, cor: corTime, descricao: descricaoTime})
                 setNomeTime('')
                 setCorTime('')
+                setdescricaoTime('')
             }}>
                 <h2>Preencha para adicionar um novo estilo.</h2>
                 <Campo
@@ -68,6 +70,13 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
                     placeholder='Digite sua cor'
                     valor={corTime}
                     aoAlterado={valor => setCorTime(valor)}/>
+                <Campo
+                    obrigatorio={true}
+                    label='descricao'
+                    type='textarea'
+                    placeholder='Conte um pouco mais sobre o estilo'
+                    valor={descricaoTime}
+                    aoAlterado={valor => setdescricaoTime(valor)}/>
                 <Botao texto='Criar Time' />
             </form>
         </section>

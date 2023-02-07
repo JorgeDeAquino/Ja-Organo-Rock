@@ -405,8 +405,8 @@ function App() {
     }));
   }
 
-  function cadastrarTime({ nome, cor }) {
-    setTimes([...times, { nome, cor, id: uuidv4() }])
+  function cadastrarTime({ nome, cor, descricao }) {
+    setTimes([...times, { nome, cor, descricao, id: uuidv4() }])
   }
 
   function resolverFavorito(id) {
