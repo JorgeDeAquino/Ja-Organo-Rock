@@ -1,6 +1,7 @@
 import Colaborador from '../Colaborador'
 import hexToRgba from 'hex-to-rgba';
 import './time.css'
+import HTMLReactParser from "html-react-parser";
 
 const Time = ({ time, colaboradores, aoDeletar, mudarCor, aoFavoritar }) => {
     return (
@@ -15,7 +16,7 @@ const Time = ({ time, colaboradores, aoDeletar, mudarCor, aoFavoritar }) => {
                 }} 
             />
             <h3 style={{ borderColor: time.cor }}>{time.nome}</h3>
-            <p className='descricao'>{time.descricao}</p>
+            <p className='descricao'>{HTMLReactParser(time.descricao)}</p>
             <div className='colaboradores'>
                 {colaboradores.map((colaborador, indice) => <Colaborador key={indice} colaborador={colaborador} corDeFundo={time.cor} aoDeletar={aoDeletar} aoFavoritar={aoFavoritar} />)}
             </div>

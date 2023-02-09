@@ -11,51 +11,128 @@ function App() {
     {
       id: uuidv4(),
       nome: 'Rockabilly',
-      descricao: `Rockabilly surgiu nos Estados Unidos nos anos 1950. É uma mistura de rock and roll, blues e country e é considerado como um dos precursores do rock and roll moderno. 
-      ${<br/>} 
-      O estilo é conhecido por suas guitarras elétricas com solos de gaita, baixo elétrico e bateria rápida e animada. Além da música, também se estendeu ao visual, incluindo cabelos penteados com gel, calças justas, camisas xadrez e sapatos bicolores.Até hoje, o rockabilly mantém uma base de fãs dedicados, e há vários festivais e eventos dedicados ao gênero em todo o mundo. Recomendações: "Blue Suede Shoes" de Carl Perkins, "Great Balls of Fire" de Jerry Lee Lewis e "Hound Dog" de Elvis Presley.`,
+      descricao: `Surgiu nos Estados Unidos nos anos 50. É uma mistura de rock and roll, blues e country e é considerado como um dos precursores do rock and roll moderno.
+      <br/>
+      <br/>
+      O estilo é conhecido por suas guitarras elétricas com solos de gaita, baixo elétrico e bateria rápida e animada.
+      <br/>
+      <br/>
+      Além da música, também se estendeu ao visual, incluindo cabelos penteados com gel, calças justas, camisas xadrez e sapatos bicolores.
+      <br/>
+      <br/>
+      Até hoje, o rockabilly mantém uma base de fãs dedicados, e há vários festivais e eventos dedicados ao gênero em todo o mundo. 
+      <br/>
+      <br/>
+      Recomendações: "Blue Suede Shoes" de Carl Perkins, "Great Balls of Fire" de Jerry Lee Lewis e "Hound Dog" de Elvis Presley.`,
       cor: '#57C278'
     },
     {
       id: uuidv4(),
       nome: 'Rock Psicodélico',
-      descricao: 'Esse estilo, surgido nos anos 60, buscava reproduzir, através da música, os efeitos causados pelos alucinógenos. Como assim? Bom, o rock psicodélico usava muito de elementos como pedais de efeito, teclados, distorção e instrumentos exóticos utilizados na Índia (como o sitar e o tabla) para tentar causar esse tipo de sensação em suas canções. Até os Beatles incorporaram o psicodelismo em uma época, como fica perceptível no álbum Sgt. Pepper’s Lonely Hearts Club Band.',
+      descricao: `Surgiu nos anos 60 como uma forma de expressão artística que buscava explorar as dimensões psicológicas e mentais da música e da performance. É conhecido por suas letras abstratas, instrumentação experimental e produção de efeitos sonoros.
+      <br/>
+      <br/>
+      Foi influenciado por diversas culturas, incluindo a contracultura da década de 1960, o movimento hippie, o uso de drogas alucinógenas e a música indiana e oriental.
+      <br/>
+      <br/>
+      Influenciou a moda, a arte e a sociedade em geral. O estilo é conhecido por suas letras filosóficas, experimentações sonoras e performances teatrais.
+      <br/>
+      <br/>
+      Recomendações: "Purple Haze" de Jimi Hendrix, "Somebody to Love" de Jefferson Airplane e "Lucy in the Sky with Diamonds" dos Beatles.
+      `,
       cor: '#ffa42b'
     },
     {
       id: uuidv4(),
       nome: 'Rock Progressivo',
-      descricao: '',
+      descricao: `Surgiu nos anos 60 e se caracteriza por sua abordagem experimental e progressiva da música rock. Esse estilo se diferencia do rock convencional pela sua abordagem mais complexa e elaborada, com letras introspectivas, arranjos musicais complexos e a utilização de instrumentos como órgãos, sintetizadores e percussão.
+      <br/>
+      <br/>
+      O rock progressivo foi influenciado por diversas formas de música, incluindo jazz, blues, folk e música clássica.
+      <br/>
+      <br/>
+      Se estendeu ao visual, incluindo roupas elaboradas e performances teatrais. O estilo também teve um impacto significativo na cultura popular, influenciando a arte, a literatura e a sociedade em geral.
+      <br/>
+      <br/>
+      Recomendações: "Tom Sawayer" do Rush, "Owner of a lonely heart" do Yes e "Shine On You Crazy Diamond" dos Pink Floyd.
+      `,
       cor: '#0d72ea'
     },
     {
       id: uuidv4(),
       nome: 'Glam Rock',
-      descricao: '',
+      descricao: `Surgiu na década de 70 e se caracteriza por sua abordagem flamboyante e exagerada. Esse estilo é conhecido por suas letras ousadas, performance teatral e visual extravagante, que incluía maquiagem exagerada, roupas brilhantes e cabelos elaborados.
+      <br/>
+      <br/>
+      Foi influenciado pelo teatro e pelo cinema, e teve como objetivo romper com as convenções da época. 
+      <br/>
+      <br/>
+      Embora o estilo tenha sido breve, deixou uma marca duradoura na história da música e continua sendo uma fonte de inspiração nos dias atuais.
+      <br/>
+      <br/>
+      Recomendações: "Ziggy Stardust" de David Bowie, "Bang a Gong (Get It On)" de T. Rex e "Bohemian Rhapsody" dos Queen.
+      `,
       cor: '#DB6EBF'
     },
     {
       id: uuidv4(),
       nome: 'Hard Rock',
-      descricao: '',
+      descricao: `Surgiu na década de 60 e se caracteriza por sua abordagem pesada e potente. Se diferencia do rock convencional pela utilização de guitarras distorcidas, baterias potentes e letras ousadas e diretas.
+      <br/>
+      <br/>
+      Influenciado por diversas formas de música, incluindo blues rock e heavy metal.
+      <br/>
+      <br/>
+      Embora o estilo tenha enfrentado críticas por suas letras controversas e abordagem pouco convencional, ele continua sendo uma das formas mais populares do rock até hoje.
+      <br/>
+      <br/>
+      Recomendações: "Stairway to Heaven" dos Led Zeppelin, "Iron Man" do Black Sabbath e "Highway to Hell" dos AC/DC.
+      `,
       cor: '#e91429'
     },
     {
       id: uuidv4(),
       nome: 'Heavy Metal',
-      descricao: '',
+      descricao: `Surgiu na década de 70 e se caracteriza por sua abordagem pesada e intensa. Se diferencia do rock convencional pela utilização de guitarras distorcidas, baterias potentes e letras ousadas e diretas, além de vocais guturais e uma atitude agressiva.
+      <br/>
+      <br/>
+      Foi influenciado pelo hard rock, blues rock e outros gêneros.
+      <br/>
+      <br/>
+      Embora o estilo tenha enfrentado críticas por suas letras controversas e abordagem pouco convencional, ele continua sendo uma das formas mais populares do rock, com uma base de fãs leal e apaixonada.
+      <br/>
+      <br/>
+      Recomendações: "Paranoid" do Black Sabbath, "Breaking the Law" do Judas Priest e "Enter Sandman" dos Metallica.
+      `,
       cor: '#f15e6c'
     },
     {
       id: uuidv4(),
       nome: 'Grunge',
-      descricao: '',
+      descricao: `Surgiu na década de 80 e se caracteriza por sua abordagem pesada e intensa, com elementos de punk rock, heavy metal e hard rock. É diferente do rock convencional pela utilização de guitarras distorcidas, baterias potentes e letras introspectivas e realistas, além de uma atitude descontraída e sem compromisso.
+      <br/>
+      <br/>
+      Foi popularizado por bandas de Seattle, como Nirvana, Soundgarden, Pearl Jam e Alice in Chains, e teve um impacto significativo na cultura popular.
+      <br/>
+      <br/>
+      Se caracteriza por sua abordagem honesta e direta das questões sociais e políticas da época, e por sua atitude descontraída e rebelde. O estilo enfrentou críticas por suas letras depressivas e abordagem sombria.
+      <br/>
+      <br/>
+      Recomendações: "Smells Like Teen Spirit" do Nirvana, "Black Hole Sun" dos Soundgarden, "Alive" do Pearl Jam e "Rooster" dos Alice in Chains.
+      `,
       cor: '#3d91f4'
     },
     {
       id: uuidv4(),
       nome: 'Pop punk',
-      descricao: '',
+      descricao: `Surgiu na década de 70 e se caracteriza por sua abordagem energética e acelerada, com elementos de pop e hard rock. Tem a utilização de letras mais acessíveis e melodias mais pegajosas, além de uma atitude jovial e descontraída.
+      <br/>
+      <br/>
+      Se caracteriza por suas letras otimistas e positivas, que abordam questões do dia a dia, relacionamentos, e por sua atitude jovial e descontraída. Enfrentou críticas por ser considerado superficial e pouco comprometido.
+      <br/>
+      <br/>
+      Recomendações: "Blitzkrieg Bop" dos Ramones, "Ever Fallen in Love (With Someone You Shouldn't've)" dos Buzzcocks, "Teenage Kicks" dos The Undertones e "Should I Stay or Should I Go" dos The Clash.
+      `,
       cor: '#727272'
     },
   ]);
