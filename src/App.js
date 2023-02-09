@@ -11,7 +11,9 @@ function App() {
     {
       id: uuidv4(),
       nome: 'Rockabilly',
-      descricao: 'Com forte influência da música country e do R&B dos Estados Unidos, o rockabilly surgiu no início da década de 50 e deixou seu legado',
+      descricao: `Rockabilly surgiu nos Estados Unidos nos anos 1950. É uma mistura de rock and roll, blues e country e é considerado como um dos precursores do rock and roll moderno. 
+      ${<br/>} 
+      O estilo é conhecido por suas guitarras elétricas com solos de gaita, baixo elétrico e bateria rápida e animada. Além da música, também se estendeu ao visual, incluindo cabelos penteados com gel, calças justas, camisas xadrez e sapatos bicolores.Até hoje, o rockabilly mantém uma base de fãs dedicados, e há vários festivais e eventos dedicados ao gênero em todo o mundo. Recomendações: "Blue Suede Shoes" de Carl Perkins, "Great Balls of Fire" de Jerry Lee Lewis e "Hound Dog" de Elvis Presley.`,
       cor: '#57C278'
     },
     {
