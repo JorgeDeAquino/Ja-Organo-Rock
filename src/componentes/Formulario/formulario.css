@@ -5,14 +5,12 @@
     justify-content: center;
     margin: 2rem 2.5rem;
     background: #000;
-    border-radius: 2%;
     padding: 1rem;
 }
 
 .formulario-container .formulario {
     background: #ccc;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
     flex: 1;
     padding: 36px 64px;
 }
