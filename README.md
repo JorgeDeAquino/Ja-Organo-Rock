@@ -6,7 +6,7 @@ Conferira o resultado do projeto? Teste a funcionalidade através deste Link: [C
 <h2> Sobre o projeto </h2>
 Projeto que você pode entender o um pouco mais sobre alguns dos vários estilos do Rock e fazer as alterações que desejar, através de adição de bandas aos estilos ou até mesmo a criação de um estilo que sentiu falta.
 <h2> Objetivo </h2>
-
+O objetivo deste projeto é fornecer um recurso único e acessível para aqueles que buscam entender e explorar um pouco sobre a evolução do rock ao longo dos anos. Com uma abordagem organizada e clara, esperamos que este projeto seja útil tanto para iniciantes quanto para especialistas no assunto.
 
 <h2>Tecnologias utilizadas:</h2>
 <div>
